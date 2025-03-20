@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/x-icon" href="img//favicon.webp">
+    <!-- Bootstrap CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/responsive.css" type="text/css" rel="stylesheet">
+    <title>BuildGo</title>
+  </head>
+<body>
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo-1 (1).webp" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Features
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+         
+        </ul>
+        <div class="search-box">
+          <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="overlay-content">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class='bx bx-search'></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="openBtn" onclick="openSearch()"><i class='bx bx-search'></i></div>
+          <a href="#" class="get-start"> Get started <span><i class='bx bx-arrow-back bx-flip-horizontal' ></i></span></a>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()">
+            <div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div</span>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="banner-sec">
+  <div class="bnr-first">
+    <h1>Building Construction Solutions</h1>
+    <div class="user d-flex align-items-center">
+      <img src="img/user.webp" alt="">
+      <h4>More then 25K Clients Reviews</h4>
+      <div class="award container">
+        <div class="avatar">
+          <img src="img/award.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bnr-second">
+    <img src="img/banner.webp" alt="" class="main-image">
+    
+  </div>
+</section>
+
+<section class="abt-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="abt-left">
+          <div class="abt-title">
+            <a href="#">About Our Company</a>
+            <h2>Innovative Solutions for Complex Projects</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-5">
+              <div class="video-box">
+                <img src="img/about-2.webp">
+                <div class="container">
+                  <div class="video-info">
+                                      <div class="overlay-video">
+                                          <a class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=EQdUvW77K3A">
+                                            <i class='bx bx-play'></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-7">
+              <div class="modern-box">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img src="img/technology.png" alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <h4>Modern Technology</h4>
+                    <p> Cutting-edge tools and software streamline processes, enabling teams to deliver</p>
+                  </div>
+              </div>
+            </div>
+            <div class="modern-box">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img src="img/chemical-engineer.png" alt="...">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h4>Experience Engineers</h4>
+                  <p> Knowledge and practical skills enable them to tackle challenges from start to finish</p>
+                </div>
+            </div>
+            <div class="mt-5">
+              <a href="#" class="yellow-btn"> Discover more<span><i class="bx bx-arrow-back bx-flip-horizontal"></i></span></a>
+          </div>
+          </div>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <div class="abt-img2">
+          <img src="img/about-1.webp" alt="">
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="brands">
+
+    <div class="auto_slider_container">
+      <ul class="auto_slider">
+          <li>Residential</li>
+          <li class="trans">Architecture</li>
+          <li>Residential</li>
+          <li class="trans">Architecture</li>
+          <li >Residential</li>
+          <li class="trans">Architecture</li>
+      </ul>
+      <ul class="auto_slider">
+        <li>Residential</li>
+        <li class="trans ">Architecture</li>
+          <li>Residential</li>
+          <li class="trans">Architecture</li>
+          <li>Residential</li>
+          <li class="trans">Architecture</li>
+      </ul>
+  </div>
+ 
+</section>
+
+<section class="our-services">
+  <div class="container">
+    <div class="abt-title">
+      <a href="#">Our Services</a>
+      <h2>Provide Quality Services</h2>
+    </div>
+    <div class="logo_sec">
+      <div class="container text-center">
+        <div class="owl-carousel text-center logoSlider owl-theme">
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/interior-design.png" alt="Logo">
+                <h3> Interior Design</h3>
+                <div class="read-box">
+                  <a href="#" class="read-more">Read more <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/renovation.png" alt="Logo">
+                <h3> House Renovation</h3>
+                <div class="read-box">
+                  <a href="#" class="read-more">Read more <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/blueprint.png" alt="Logo">
+                <h3> Building Architecture</h3>
+                <div class="read-box">
+                  <a href="#" class="read-more">Read more <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/floor.png" alt="Logo">
+                <h3> Flooring Installation</h3>
+                <div class="read-box">
+                  <a href="#" class="read-more">Read more <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/blueprint.png" alt="Logo">
+                <h3>Building Architect</h3>
+                <div class="read-box">
+                  <a href="#" class="read-more">Read more <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="play-video">
+  <div class="overlay-video">
+    <a class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=EQdUvW77K3A">
+      <i class="bx bx-play"></i>
+    </a>
+</div>
+</section>
+
+<section class="why-choose">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="choose-left">
+          <img src="./img/experience.webp">
+          <div class="choose-project">
+            <h2>
+              <span class="counter">156</span>k
+              <p>Project Completed</p>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="choose-right">
+          <div class="abt-title">
+            <a href="#">Our Choose Us</a>
+            <h2>Modern Building Challenges & Solutions</h2>
+            <p>One significant challenge is managing project costs in an era of fluctuating material prices and labor shortages.</p>
+            <div class="skill_box">
+            <div class="skill__area-item-content">
+              <h6>Building Construction</h6> 
+              <span class="skill__area-item-count"><span class="counter">89</span>%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-value"></div>
+            </div>
+          </div>
+          <div class="skill_box">
+            <div class="skill__area-item-content">
+              <h6>Interior Design</h6> 
+              <span class="skill__area-item-count"><span class="counter">75</span>%</span>
+            </div>
+            <div class="progress-two">
+              <div class="progressSecond-value"></div>
+            </div>
+          </div>
+          </div>
+          <div class="strt-tody">
+            <a href="#" class="get-start"> Start Today <span><i class="bx bx-arrow-back bx-flip-horizontal"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="our-portfolio">
+  <div class="container">
+    <div class="abt-title">
+      <a href="#">Our Portfolio</a>
+      <h2>Discover Our Builds</h2>
+    </div>
+    <div class="logo_sec">
+      <div class="container text-center">
+        <div class="owl-carousel text-center logoSliderr owl-theme">
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/portfolio-2.webp" alt="Logo">
+                <div class="port-overlay">
+                  <h6>Hospitality</h6>
+                  <h4><a href="portfolio-details.html">Seaside Resort Expansion</a></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/portfolio-4.webp" alt="Logo">
+                <div class="port-overlay">
+                  <h6>Hospitality</h6>
+                  <h4><a href="portfolio-details.html">Seaside Resort Expansion</a></h4>
+                </div>
+                
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/portfolio-8.webp" alt="Logo">
+                <div class="port-overlay">
+                  <h6>Hospitality</h6>
+                  <h4><a href="portfolio-details.html">Seaside Resort Expansion</a></h4>
+                </div>
+                
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="partner_logo">
+              <a href="#" title="Logo" target="_blank">
+                <img src="img/portfolio-2.webp" alt="Logo">
+                <div class="port-overlay">
+                  <h6>Hospitality</h6>
+                  <h4><a href="portfolio-details.html">Seaside Resort Expansion</a></h4>
+                </div>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="counter_wrapper">
+  <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+                  <div class="count_box box_hover">
+                    <div>
+                      <h3><span class="timer">678</span>+</h3>
+                      <h4>COMPLETE PROJETS</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                  <div class="count_box box_center">
+                    <div>
+                      <h3><span class="timer">150</span>+</h3>
+                      <h4>TEAM MEMBERS</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                  <div class="count_box box_hover">
+                    <div>
+                      <h3><span class="timer">635</span>+</h3>
+                      <h4>CLIENT REVIEWS</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <div class="count_box box_hover">
+                  <div>
+                    <h3><span class="timer">89</span>+</h3>
+                    <h4>WINNING AWARDS</h4>
+                  </div>
+                </div>
+            </div>
+          </div>
+    
+  </div>
+</div>
+
+<section class="experience-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="abt-title">
+          <a href="#">Experience areas</a>
+          <h2>Techniques for Outstanding Results</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2">
+            <div class="rotate-img">
+              <img src="img/content-shape.webp" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+            <div class="project-plannig">
+              <img src="img/planning (1).png" alt="">
+              <h4>Project Planning</h4>
+              <p>Ensuring every detail is considered designing</p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+            <div class="project-plannig">
+              <img src="img/planning (1).png" alt="">
+              <h4>Project Planning</h4>
+              <p>Ensuring every detail is considered designing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="pro-img">
+          <img src="img/image-1.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog-news">
+  <div class="container">
+    <div class="abt-title text-center">
+      <a href="#">News & Blog</a>
+      <h2 class="text-center">Update News & Blogs</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="img/blog-1.webp" alt="">
+          </div>
+          <div class="blog-detl">
+            <div class="date">
+              <h5><i class='bx bxs-calendar'></i> 22 Dec</h5>
+            </div>
+            <a href="#"><h3>How Weather Can Impact a Construction Project</h3></a>
+            <a href="#" class="read-more">Read more <i class="bx bx-right-arrow-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="img/blog-2.webp" alt="">
+          </div>
+          <div class="blog-detl">
+            <div class="date">
+              <h5><i class='bx bxs-calendar'></i> 22 Dec</h5>
+            </div>
+            <a href="#"><h3>How Weather Can Impact a Construction Project</h3></a>
+            <a href="#" class="read-more">Read more <i class="bx bx-right-arrow-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="img/blog-3.webp" alt="">
+          </div>
+          <div class="blog-detl">
+            <div class="date">
+              <h5><i class='bx bxs-calendar'></i> 22 Dec</h5>
+            </div>
+            <a href="#"><h3>How Weather Can Impact a Construction Project</h3></a>
+            <a href="#" class="read-more">Read more <i class="bx bx-right-arrow-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ftr-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="ftr-logo">
+          <a href="#"><img src="img/logo-2.webp" alt=""></a>
+          <h5>We’re Solutions for all construction</h5>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="ftr-adrs">
+          <div class="ftr-title">
+            <h4>Address</h4>
+          </div>
+        <p>3891 Ranch view Richardson, California 62639</p>
+        <h3><a href="tel:+123 (256) 568 58">+123 (256) 568 58</a></h3>
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="quick-links">
+          <div class="ftr-title">
+            <h4>Quick Links</h4>
+          </div>
+          <ul class="ftr-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="quick-links">
+          <div class="ftr-title">
+            <h4>Support</h4>
+          </div>
+          <ul class="ftr-list">
+            <li><a href="#">Term & Conditions</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
